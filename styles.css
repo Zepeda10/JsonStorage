@@ -1,0 +1,104 @@
+*{
+	margin:0px;
+	padding: 0px;
+	
+}
+
+body{
+	font-family: Verdana, Gevena, Tahoma,sans-serif;
+	background-color: #2C4A73;
+}
+
+#logo h2{
+	padding: 20px;
+	color:orange;
+	border-bottom: 1px dashed #00173C;
+	font-family: "Segoe UI", sans-serif;
+	font-size: 25px;
+}
+
+
+h2{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color:#2ecc71;
+}
+
+
+.registro{
+	margin:30px;
+	float:left;
+	padding-bottom: 40px;
+	padding-right: 40px;
+	padding-left: 40px;
+	background: #223A59;
+	border-radius: 30px;
+}
+
+.registro .entrada{
+	width: 260px;
+	border:0;
+	background: none;
+	display: block;
+	border:1px solid black;
+	outline:none;
+	color:#C8DFEA;
+	border-radius: 10px;
+    line-height: 22px;
+    font-size: 15px;
+    text-indent: 7px;
+    transition:0.25s;
+}
+
+.registro .entrada:focus,.entrada:focus{
+	width: 280px;
+	border-color:#2ecc71;
+	background: none;
+}
+
+
+.registro #btnEnviar{
+	border:0;
+	background: none;
+	display: block;
+	text-align: center;
+	border:1px solid #3498db;
+	padding:9px 22px;
+	outline:none;
+	color:#2ecc71;
+	border-radius: 24px;
+	transition:0.25s;
+	cursor:pointer;
+}
+
+.registro #btnEnviar:hover{
+	font-weight: bold;
+	background:#2ecc71;
+	color: black;
+}
+
+
+
+.usuarios{
+	border-radius: 30px;
+	margin:30px;
+	margin-left: 180px;
+	float:left;
+	padding-bottom: 40px;
+	padding-right: 40px;
+	padding-left: 40px;
+	background: #223A59;
+	color:#C8DFEA;
+}
+
+
+.usuarios table, th, td{
+	padding: 8px;
+	border: 1px solid #2ecc71;
+	border-collapse: collapse;
+
+}
+
+::-webkit-input-placeholder{ 
+	color:#C8DFEA;
+} 
